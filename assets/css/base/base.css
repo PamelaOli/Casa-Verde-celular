@@ -1,7 +1,7 @@
 @import url(_variaveis.css);
 @import url(_reset.css);
 
-body{
+body {
     font-family: var(--familia-corpo);
     font-size: var(--tamanho-corpo);
     color: var(--cinza);
@@ -10,19 +10,19 @@ body{
     background-position: center;
 }
 
-.container{
+.container {
     padding-right: 1rem;
     padding-left: 1rem;
 }
 
-.titulo{
+.titulo {
     font-size: var(--tamanho-titulo);
 }
 
-.titulo--destaque{
+.titulo--destaque {
     font-family: var(--familia-titulo-destaque);
     color: var(--preto);
-    font-size: var(--familia-titulo-destaque);
+    font-size: var(--tamanho-titulo-destaque);
     font-weight: var(--peso-titulo-destaque);
 
     display: block;
@@ -31,14 +31,14 @@ body{
     margin-bottom: .75rem;
 }
 
-.alinhamento--esquerda{
+.alinhamento--esquerda {
     text-align: left;
 }
 
-.alinhamento--meio{
+.alinhamento--meio {
     text-align: center;
 }
 
-.texto{
+.texto {
     line-height: 26px;
 }

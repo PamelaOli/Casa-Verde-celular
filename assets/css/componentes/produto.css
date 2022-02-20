@@ -1,4 +1,4 @@
-.produto{
+.produto {
     margin-bottom: 1rem;
 
     padding-top: 2rem;
@@ -18,7 +18,7 @@
     min-height: 12.5rem;
 }
 
-.produto__imagem{
+.produto__imagem {
     position: absolute;
     top: 50%;
     left: -8rem;
@@ -29,28 +29,28 @@
     width: 18.75rem;
 }
 
-.produto__conteudo{
+.produto__conteudo {
     position: relative;
     z-index: 2;
 }
 
-.produto__titulo{
+.produto__titulo {
     margin-top: 0;
     margin-bottom: .5rem;
 }
 
-.produto__preco{
+.produto__preco {
     margin-bottom: 1.5rem;
 }
 
-.produto__comprar{
+.produto__comprar {
     color: var(--amarelo);
 
     display: flex;
     align-items: center;
 }
 
-.produto__comprar--icone{
+.produto__comprar--icone {
     display: inline-block;
 
     width: 0.875rem;

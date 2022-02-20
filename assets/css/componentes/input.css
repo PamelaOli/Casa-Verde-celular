@@ -1,4 +1,4 @@
-.input{
+.input {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
@@ -14,19 +14,20 @@
 
     margin-bottom: 1rem;
 
-    border: none;
-
     background-color: var(--branco);
+
+    border: none;
 
     box-shadow: 10px 10px 30px var(--preto-transparente);
 }
 
-.input--icone{
-    padding-left: 4.24rem;
+.input--icone {
+    padding-left: 4.25rem;
+
     background-repeat: no-repeat;
     background-position: left 1.75rem center;
 }
 
-.input--email{
+.input--email {
     background-image: url(../../img/icones/mail.svg);
 }
